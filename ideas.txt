@@ -1,0 +1,12 @@
+| #  | Project                   | Concepts You'll Learn                     |
+| -- | ------------------------- | ----------------------------------------- |
+| 1  | 🧮 Calculator             | Input, operators, functions, `if-else`    |
+| 2  | 🎯 Number Guessing Game   | `random`, loops, conditions               |
+| 3  | ✂️ Rock-Paper-Scissors    | `if-elif-else`, random module             |
+| 4  | 🔑 Password Generator     | Strings, loops, `random`, `string` module |
+| 5  | 🌡️ Temperature Converter | Functions, arithmetic                     |
+| 6  | 📋 To-Do List             | Lists, loops, CRUD operations             |
+| 7  | 📝 Notes App              | File handling (`read`, `write`, `append`) |
+| 8  | 🎲 Dice Roller            | Random module, loops                      |
+| 9  | 📖 Contact Book           | Lists, dictionaries, functions            |
+| 10 | ❓ Quiz Application        | Lists, dictionaries, scoring, loops       |
