@@ -1,0 +1,107 @@
+Welcome Screen
+
+↓
+
+Enter Name
+
+↓
+
+Choose Category
+
+↓
+
+Question 1
+
+↓
+
+Question 2
+
+↓
+
+Question 3
+
+↓
+
+Final Score
+
+↓
+
+Play Again?
+
+---------------------------------------
+
+=========================
+      Python Quiz
+=========================
+
+Enter your name:
+
+Honey
+
+Choose category
+
+1. Python
+2. General Knowledge
+3. Computer Science
+
+Choice:
+
+-------------------------------
+
+8 / 10
+
+Percentage
+
+80%
+
+Grade
+
+A
+
+-------------------------------------
+
+questions = [
+    {
+        "question": "...",
+        "options": ["A", "B", "C", "D"],
+        "answer": "B"
+    }
+]
+
+------------------------------------------
+
+welcome()
+
+get_player_name()
+
+choose_category()
+
+load_questions()
+
+display_question()
+
+get_user_answer()
+
+check_answer()
+
+calculate_score()
+
+show_result()
+
+save_score()
+
+show_leaderboard()
+
+play_again()
+
+main()
+
+-------------------------------
+
+ ____        _
+|  _ \ _   _(_)_ __
+| |_) | | | | | '_ \
+|  __/| |_| | | | | |
+|_|    \__, |_|_| |_|
+       |___/    
+
