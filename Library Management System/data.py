@@ -1,0 +1,67 @@
+books = [
+    {"title": "The Alchemist", "author": "Paulo Coelho", "book_id": "B001", "status": "Available"},
+    {"title": "Atomic Habits", "author": "James Clear", "book_id": "B002", "status": "Available"},
+    {"title": "Rich Dad Poor Dad", "author": "Robert Kiyosaki", "book_id": "B003", "status": "Available"},
+    {"title": "Think and Grow Rich", "author": "Napoleon Hill", "book_id": "B004", "status": "Available"},
+    {"title": "Deep Work", "author": "Cal Newport", "book_id": "B005", "status": "Available"},
+    {"title": "The Psychology of Money", "author": "Morgan Housel", "book_id": "B006", "status": "Available"},
+    {"title": "Ikigai", "author": "Hector Garcia", "book_id": "B007", "status": "Available"},
+    {"title": "The Power of Habit", "author": "Charles Duhigg", "book_id": "B008", "status": "Available"},
+    {"title": "Can't Hurt Me", "author": "David Goggins", "book_id": "B009", "status": "Available"},
+    {"title": "The 5 AM Club", "author": "Robin Sharma", "book_id": "B010", "status": "Available"},
+
+    {"title": "Python Crash Course", "author": "Eric Matthes", "book_id": "B011", "status": "Available"},
+    {"title": "Automate the Boring Stuff", "author": "Al Sweigart", "book_id": "B012", "status": "Available"},
+    {"title": "Fluent Python", "author": "Luciano Ramalho", "book_id": "B013", "status": "Available"},
+    {"title": "Clean Code", "author": "Robert C. Martin", "book_id": "B014", "status": "Available"},
+    {"title": "The Pragmatic Programmer", "author": "Andrew Hunt", "book_id": "B015", "status": "Available"},
+    {"title": "Introduction to Algorithms", "author": "Thomas H. Cormen", "book_id": "B016", "status": "Available"},
+    {"title": "Design Patterns", "author": "Erich Gamma", "book_id": "B017", "status": "Available"},
+    {"title": "Head First Python", "author": "Paul Barry", "book_id": "B018", "status": "Available"},
+    {"title": "Learning Python", "author": "Mark Lutz", "book_id": "B019", "status": "Available"},
+    {"title": "Effective Python", "author": "Brett Slatkin", "book_id": "B020", "status": "Available"},
+
+    {"title": "Harry Potter and the Sorcerer's Stone", "author": "J.K. Rowling", "book_id": "B021", "status": "Available"},
+    {"title": "Harry Potter and the Chamber of Secrets", "author": "J.K. Rowling", "book_id": "B022", "status": "Available"},
+    {"title": "The Hobbit", "author": "J.R.R. Tolkien", "book_id": "B023", "status": "Available"},
+    {"title": "The Lord of the Rings", "author": "J.R.R. Tolkien", "book_id": "B024", "status": "Available"},
+    {"title": "The Chronicles of Narnia", "author": "C.S. Lewis", "book_id": "B025", "status": "Available"},
+    {"title": "The Hunger Games", "author": "Suzanne Collins", "book_id": "B026", "status": "Available"},
+    {"title": "Percy Jackson", "author": "Rick Riordan", "book_id": "B027", "status": "Available"},
+    {"title": "The Maze Runner", "author": "James Dashner", "book_id": "B028", "status": "Available"},
+    {"title": "Dune", "author": "Frank Herbert", "book_id": "B029", "status": "Available"},
+    {"title": "1984", "author": "George Orwell", "book_id": "B030", "status": "Available"},
+
+    {"title": "To Kill a Mockingbird", "author": "Harper Lee", "book_id": "B031", "status": "Available"},
+    {"title": "Pride and Prejudice", "author": "Jane Austen", "book_id": "B032", "status": "Available"},
+    {"title": "The Great Gatsby", "author": "F. Scott Fitzgerald", "book_id": "B033", "status": "Available"},
+    {"title": "Moby Dick", "author": "Herman Melville", "book_id": "B034", "status": "Available"},
+    {"title": "War and Peace", "author": "Leo Tolstoy", "book_id": "B035", "status": "Available"},
+    {"title": "Crime and Punishment", "author": "Fyodor Dostoevsky", "book_id": "B036", "status": "Available"},
+    {"title": "The Catcher in the Rye", "author": "J.D. Salinger", "book_id": "B037", "status": "Available"},
+    {"title": "The Kite Runner", "author": "Khaled Hosseini", "book_id": "B038", "status": "Available"},
+    {"title": "The Book Thief", "author": "Markus Zusak", "book_id": "B039", "status": "Available"},
+    {"title": "Life of Pi", "author": "Yann Martel", "book_id": "B040", "status": "Available"},
+
+    {"title": "Sapiens", "author": "Yuval Noah Harari", "book_id": "B041", "status": "Available"},
+    {"title": "Homo Deus", "author": "Yuval Noah Harari", "book_id": "B042", "status": "Available"},
+    {"title": "21 Lessons for the 21st Century", "author": "Yuval Noah Harari", "book_id": "B043", "status": "Available"},
+    {"title": "Zero to One", "author": "Peter Thiel", "book_id": "B044", "status": "Available"},
+    {"title": "The Lean Startup", "author": "Eric Ries", "book_id": "B045", "status": "Available"},
+    {"title": "Start With Why", "author": "Simon Sinek", "book_id": "B046", "status": "Available"},
+    {"title": "The Intelligent Investor", "author": "Benjamin Graham", "book_id": "B047", "status": "Available"},
+    {"title": "The Millionaire Fastlane", "author": "MJ DeMarco", "book_id": "B048", "status": "Available"},
+    {"title": "Elon Musk", "author": "Walter Isaacson", "book_id": "B049", "status": "Available"},
+    {"title": "Steve Jobs", "author": "Walter Isaacson", "book_id": "B050", "status": "Available"},
+
+    {"title": "The Art of War", "author": "Sun Tzu", "book_id": "B051", "status": "Available"},
+    {"title": "Meditations", "author": "Marcus Aurelius", "book_id": "B052", "status": "Available"},
+    {"title": "The Prince", "author": "Niccolo Machiavelli", "book_id": "B053", "status": "Available"},
+    {"title": "The Bhagavad Gita", "author": "Vyasa", "book_id": "B054", "status": "Available"},
+    {"title": "The Odyssey", "author": "Homer", "book_id": "B055", "status": "Available"}
+]
+
+members = [
+    
+]
+

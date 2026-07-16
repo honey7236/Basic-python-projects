@@ -1,0 +1,139 @@
+Book
+
+Member
+
+Library
+
+--------------------------
+
+Title
+
+Author
+
+Book ID
+
+Available or Borrowed
+
+--------------------------
+
+Name
+
+Member ID
+
+Borrowed Books
+
+-------------------------
+
+All Books
+
+All Members
+
+
+Add Book
+
+Register Member
+
+Borrow Book
+
+Return Book
+
+Search Book
+
+Display Books
+
+-------------------------
+
+
+                START
+                  │
+                  ▼
+        Create Library Object
+                  │
+                  ▼
+        Display Main Menu
+                  │
+      ┌───────────┼───────────┐
+      │           │           │
+      ▼           ▼           ▼
+  Add Book   Register Member  View Books
+      │           │           │
+      └───────────┼───────────┘
+                  │
+                  ▼
+           User Selects Option
+                  │
+      ┌───────────┼─────────────┐
+      │           │             │
+      ▼           ▼             ▼
+ Search Book  Borrow Book  Return Book
+      │           │             │
+      │           │             │
+      ▼           ▼             ▼
+ Check Exists  Check Book   Check Member
+                  │
+          Is Book Available?
+             │          │
+            Yes         No
+             │          │
+             ▼          ▼
+ Add Book to Member   Show Error
+ Change Status
+ Available → Borrowed
+             │
+             ▼
+      Success Message
+             │
+             ▼
+        Return to Menu
+             │
+      ┌──────┴───────┐
+      │              │
+      ▼              ▼
+   Exit?           Continue
+      │              │
+     Yes             │
+      │              │
+      ▼              │
+     END ◄────────────┘
+
+
+-------------------------------------
+
+Create Library
+      ↓
+Add Books
+      ↓
+Register Members
+      ↓
+Search/View Books
+      ↓
+Borrow Book
+      ↓
+Update Book Status
+      ↓
+Store Book in Member's Borrowed List
+      ↓
+Return Book
+      ↓
+Update Status Again
+      ↓
+Repeat Until Exit
+
+-------------------------------------
+
+Library
+│
+├── books
+│     ├── Book
+│     ├── Book
+│     └── Book
+│
+└── members
+      ├── Member
+      │      └── borrowed_books
+      │              ├── Book
+      │              └── Book
+      │
+      └── Member
+
+
